@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/mahbubcseju/Desktop/projects/reactjs/virtaulenv/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/mahbubcseju/Desktop/projects/reactjs/virtaulenv
+export npm_config_prefix=/Users/mahbubcseju/Desktop/projects/reactjs/virtaulenv
+exec virtaulenv/bin/node "$@"
